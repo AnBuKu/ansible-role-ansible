@@ -1,6 +1,6 @@
 ## ansible
 
-[![Travis CI](https://secure.travis-ci.org/debops/ansible-role-ansible.png)](http://travis-ci.org/debops/ansible-role-ansible) [![test-suite](http://img.shields.io/badge/test--suite-ansible--role--ansible-blue.svg)](https://github.com/debops/test-suite/tree/master/ansible-role-ansible/) [![Ansible Galaxy](http://img.shields.io/badge/galaxy-debops.ansible-660198.svg)](https://galaxy.ansible.com/list#/roles/1550)[![Platforms](http://img.shields.io/badge/platforms-debian%20|%20ubuntu-lightgrey.svg)](#)
+[![Travis CI](https://secure.travis-ci.org/debops/ansible-role-ansible.png)](http://travis-ci.org/debops/ansible-role-ansible) [![test-suite](http://img.shields.io/badge/test--suite-ansible--role--ansible-blue.svg)](https://github.com/debops/test-suite/tree/master/ansible-role-ansible/) [![Ansible Galaxy](http://img.shields.io/badge/galaxy-debops.ansible-660198.svg)](https://galaxy.ansible.com/list#/roles/1550) [![Platforms](http://img.shields.io/badge/platforms-debian%20|%20ubuntu-lightgrey.svg)](#)
 
 `debops.ansible` is an Ansible role which builds and installs Debian
 package with specified Ansible version (by default, `devel`). It can be
