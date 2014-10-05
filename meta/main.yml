@@ -42,11 +42,11 @@ ansigenome_info:
       github: 'drybjed'
 
   synopsis: |
-    `debops.ansible` is an Ansible role which builds and installs Debian
-    package with specified Ansible version (by default, `devel`). It can be
+    ``debops.ansible`` is an Ansible role which builds and installs Debian
+    package with specified Ansible version (by default, ``devel``). It can be
     used to easily create remote Ansible Controller host or test your playbooks
-    on a `devel` Ansible version in a container or VM.
+    on a ``devel`` Ansible version in a container or VM.
     
-    If `redis-server` is found on managed host, this role will automatically
+    If ``redis-server`` is found on managed host, this role will automatically
     enable support for host fact caching in Ansible.
 
