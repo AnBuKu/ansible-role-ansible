@@ -67,6 +67,10 @@
     install_recommends: False
   when: (role_ansible_register_redis is defined and role_ansible_register_redis.stat.exists)
 
+- name: Divert original Ansible configuration
+  command: dpkg-divert --quiet --local --divert /etc/ansible/ansible.cfg.dpkg-divert --rename /etc/ansible/ansible.cfg
+           creates=/etc/ansible/ansible.cfg.dpkg-divert
+
 - name: Configure /etc/ansible/ansible.cfg
   template:
     src: 'etc/ansible/ansible.cfg.j2'
